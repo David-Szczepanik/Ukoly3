@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer_Invoice", "Customer_Invoice\Customer_Invoice.csproj", "{FED45165-F0FB-4981-AB70-D1E54A4BC9D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classroom", "Classroom\Classroom.csproj", "{98947EE7-0689-4545-B5A9-9158A58AD9BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book", "Book\Book.csproj", "{CDDD9750-541A-48DF-9362-7899CE3C96DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FED45165-F0FB-4981-AB70-D1E54A4BC9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED45165-F0FB-4981-AB70-D1E54A4BC9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED45165-F0FB-4981-AB70-D1E54A4BC9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED45165-F0FB-4981-AB70-D1E54A4BC9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98947EE7-0689-4545-B5A9-9158A58AD9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98947EE7-0689-4545-B5A9-9158A58AD9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98947EE7-0689-4545-B5A9-9158A58AD9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98947EE7-0689-4545-B5A9-9158A58AD9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDDD9750-541A-48DF-9362-7899CE3C96DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDD9750-541A-48DF-9362-7899CE3C96DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDD9750-541A-48DF-9362-7899CE3C96DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDD9750-541A-48DF-9362-7899CE3C96DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DDA12C7-625E-4EB3-A333-55A85B37BAE4}
+	EndGlobalSection
+EndGlobal
