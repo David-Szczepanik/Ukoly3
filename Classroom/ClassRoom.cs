@@ -9,6 +9,7 @@ class ClassRoom {
     private Student[] students = new Student[10];
     private int currentNumberOfStudents;
     private int maxStudents;
+
     public ClassRoom(int maxStudents) {
         this.maxStudents = maxStudents;
         students = new Student[maxStudents];
@@ -35,15 +36,13 @@ class ClassRoom {
     public string GetTeacherName() {
         return teacher.name;
     }
-public Student GetStudent(int index)
-        {
-            if (index >= 0 && index < currentNumberOfStudents)
-            {
-                return students[index];
-            }
-            return null;
+    public Student GetStudent(int index) {
+        if(index >= 0 && index < currentNumberOfStudents) {
+            return students[index];
         }
-        public override string ToString() {
+        return null;
+    }
+    public override string ToString() {
         string classInfo = $"Teacher: {GetTeacherName()}\nStudents: ";
         foreach(var student in students) {
             if(student != null)
@@ -69,7 +68,9 @@ class Student {
 }
 class Teacher {
     public string name = "";
-    public Teacher(string name) {
+    public int age;
+    public Teacher(string name, int age) {
         this.name = name;
+        this.age = age;
     }
 }
